@@ -14,7 +14,7 @@ export default function Home() {
          <Intro />
          <Step />
          <Tokenomics />
-         <Team />
+         {/* <Team /> */}
          <Join />
          <Footer />
       </div>

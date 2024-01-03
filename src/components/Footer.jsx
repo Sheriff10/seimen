@@ -5,9 +5,9 @@ export default function Footer() {
       return { img, link };
    };
    const iconArr = [
-      iconFunc("/asset/twitter.png", "#"),
+      iconFunc("/asset/twitter.png", "https://twitter.com/Seimen69"),
       iconFunc("/asset/discord.png", "#"),
-      iconFunc("/asset/telegram.png", "#"),
+      iconFunc("/asset/telegram.png", "https://t.co/CpyZoxu7Yn"),
    ];
    return (
       <div className="wrap py-4 bg-red px-3">
