@@ -27,8 +27,9 @@ export default function Intro() {
          </div>
          <div className="text-wrap text-4xl text-center bg-yellow col-12 text-red p-16">
             <span>
-               SEIMEN is the main brand coin of SEI Network: <br />
-               Onboard Users. Maximize Memes. Strengthen SEI.
+               <span className="font-extrabold">Seimen: MEN OF SEI</span> <br />
+               We impregnate the unbelievers of SEI <br /> - The fastest place
+               to swim to the moon!
             </span>
          </div>
       </>
