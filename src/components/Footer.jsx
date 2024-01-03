@@ -10,7 +10,7 @@ export default function Footer() {
       iconFunc("/asset/telegram.png", "https://t.co/CpyZoxu7Yn"),
    ];
    return (
-      <div className="wrap py-4 bg-red px-3">
+      <div className="wrap py-4 bg-red px-3" id="footer">
          <div className="flex justify-between items-center">
             <div className="icon-wrap flex gap-3">
                {iconArr.map((i, index) => (

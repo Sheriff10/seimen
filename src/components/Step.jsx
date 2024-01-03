@@ -12,11 +12,11 @@ export default function Step() {
       setActive(tab);
    };
    return (
-      <div className="wrap flex relative text-center py-24 bg-red text-white">
+      <div className="wrap flex relative text-center py-24 bg-red text-white" id="step">
          <div className="container">
             <div className="flex flex-col">
                {/* tab sectin */}
-               <div className="col-lg-6 mx-auto">
+               <div className="col-lg-6 mx-auto text-xl">
                   <div className="tab grid grid-cols-3 bg-yellow cursor-pointer">
                      <div
                         className={` ${

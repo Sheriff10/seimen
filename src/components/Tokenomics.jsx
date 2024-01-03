@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tokenomics() {
    return (
-      <div className="py-16 bg-red text-center">
+      <div className="py-16 bg-red text-center" id="tokenomics">
          <div className="heading bg-red text-white text-6xl py-4">
             <span>Tokenomics</span>
          </div>
