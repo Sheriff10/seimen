@@ -8,8 +8,8 @@ export default function Header() {
    const navigation = [
       { name: "HOW TO BUY", href: "#step" },
       { name: "TOKENOMICS", href: "#tokenomics" },
-      { name: "BRIDGE TO SEI", href: "#step" },
-      { name: "CONTACT", href: "#footer" },
+      { name: "TWITTER", href: "https://twitter.com/Seimen69" },
+      { name: "TELEGRAM", href: "https://t.co/CpyZoxu7Yn" },
    ];
 
    return (
