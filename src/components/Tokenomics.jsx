@@ -11,7 +11,7 @@ export default function Tokenomics() {
          <div className="heading text-white text-6xl py-4">
             <span>Tokenomics</span>
          </div>
-         <div className="wrap py-4">
+         <div className="wrap py-4 p-2">
             <div className="text-wrap text-4xl bg-red col-lg-6 col-md-10 mx-auto text-white p-3 py-5 rounded-2xl">
                <div
                   ref={ref1}

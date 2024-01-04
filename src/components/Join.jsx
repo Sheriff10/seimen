@@ -16,7 +16,7 @@ export default function Join() {
                   // Same substring at the start will only be typed out once, initially
                   "NOW!!!",
                   1000, // wait 1s before replacing "Mice" with "Hamsters"
-                  "AND BUY SEIMAN",
+                  "AND BUY SEIMEN",
                   1000,
                   " LET' SWIM TO THE MOON",
                   1000,

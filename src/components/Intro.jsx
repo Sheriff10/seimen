@@ -31,7 +31,7 @@ export default function Intro() {
          </div>
          <div
             ref={ref}
-            className={`text-wrap text-4xl text-center col-12 text-white p-16`}
+            className={`text-wrap text-4xl text-center col-12 text-white p-2`}
          >
             <div className="col-lg-6 mx-auto bg-red rounded-2xl p-3 py-5 ">
                <span className={`${inView ? "fade-in" : "fade-out"}`}>
