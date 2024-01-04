@@ -8,3 +8,44 @@
 .text-gamja{
   font-family: "gamja";
 }
+
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in-left {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  animation: fade-in-left 1s linear forwards;
+}
+
+@keyframes fade-in-left {
+  0% {
+     transform: translateX(-100px);
+  }
+  100% {
+     transform: translateX(0px);
+  }
+}
+
+.fade-in-right {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  animation: fade-in-right 1s linear forwards;
+}
+
+@keyframes fade-in-right {
+  0% {
+     transform: translateX(100px);
+  }
+  100% {
+     transform: translateX(0px);
+  }
+}
+
+.fade-out {
+  opacity: 0;
+  /* transform: translateX(-100px); */
+}

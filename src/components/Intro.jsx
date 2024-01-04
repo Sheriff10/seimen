@@ -7,19 +7,19 @@ export default function Intro() {
             {/* Img and text */}
             <div className="col-12 m-0">
                <div className="wrap py-4">
-                  <div className="text-wrap text-cneter  text-white transform translate-y-[20px]">
-                     <span className="text-6xl">WE ARE</span>
+                  <div className="text-wrap text-cneter r  text-white transform translate-y-[20px]">
+                     <span className="text-6xl"><span>WE</span> <span>ARE</span></span>
                   </div>
                   <div className="img-wrap flex flex-col items-center">
                      <img
                         src="/asset/seiman.png"
                         alt="Seiman"
-                        className="img-wrap w-[300px]"
+                        className="img-wrap w-[300px] intro-img2"
                      />
                      <img
                         src="/asset/logo.png"
                         alt="Seiman"
-                        className="img-wrap w-[400px] transform translate-y-[-70px]"
+                        className="img-wrap w-[400px] transform translate-y-[-70px] intro-img1"
                      />
                   </div>
                </div>

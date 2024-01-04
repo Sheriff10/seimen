@@ -1,4 +1,5 @@
 import './App.css';
+import "./style/animation.css"
 import Home from './container/Home';
 
 function App() {

@@ -6,7 +6,6 @@ export default function Footer() {
    };
    const iconArr = [
       iconFunc("/asset/twitter.png", "https://twitter.com/Seimen69"),
-      iconFunc("/asset/discord.png", "#"),
       iconFunc("/asset/telegram.png", "https://t.co/CpyZoxu7Yn"),
    ];
    return (
@@ -14,7 +13,7 @@ export default function Footer() {
          <div className="flex justify-between items-center">
             <div className="icon-wrap flex gap-3">
                {iconArr.map((i, index) => (
-                  <a href="" target={"_blank"} key={index}>
+                  <a href={i.link} target={"_blank"} key={index} rel="noreferrer">
                      <img src={i.img} alt={i.link} />
                   </a>
                ))}

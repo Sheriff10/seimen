@@ -12,6 +12,7 @@ export default function S1() {
             <a
                href="https://chromewebstore.google.com/detail/compass-wallet-for-sei/anokgmphncpekkhclmingpimjmcooifb"
                target={"_blank"}
+               rel="noreferrer"
             >
                 <button className="text-red bg-white px-8 py-3 text-xl rounded">
                {" "}
