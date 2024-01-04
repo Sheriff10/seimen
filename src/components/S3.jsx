@@ -12,7 +12,7 @@ export default function S3() {
          <div className="btn-wrap grid grid-cols-1 lg:grid-cols-3 gap-3">
             <button className="text-red bg-white px-8 py-3 text-xl rounded">
                {" "}
-               BUY ON AUSTROPORT
+               BUY ON ASTROPORT
             </button>
             <button className="text-red bg-white px-8 py-3 text-xl rounded">
                {" "}
