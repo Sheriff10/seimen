@@ -50,3 +50,12 @@
   opacity: 0;
   /* transform: translateX(-1000px); */
 }
+
+.bg-wrap, body{
+  background: linear-gradient(#3E6FED, #F33005);
+}
+.tk {
+  background: url("/public/asset/tkBg.png") no-repeat;
+  background-size: contain;
+  background-position: center center;
+}

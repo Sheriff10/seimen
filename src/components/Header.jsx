@@ -13,7 +13,7 @@ export default function Header() {
    ];
 
    return (
-      <header className="absolute inset-x-0 top-0 z-50  shadow bg-yellow text-red">
+      <header className="absolute inset-x-0 top-0 z-50  shadow bg-red text-white">
          <nav
             className="flex items-center justify-between p-6 lg:px-8"
             aria-label="Global"
@@ -27,7 +27,7 @@ export default function Header() {
             <div className="flex lg:hidden">
                <button
                   type="button"
-                  className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-red"
+                  className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
                   onClick={() => setMobileMenuOpen(true)}
                >
                   <span className="sr-only">Open main menu</span>
@@ -39,7 +39,7 @@ export default function Header() {
                   <a
                      key={item.name}
                      href={item.href}
-                     className="text-xl font-semibold leading-6 text-red"
+                     className="text-xl font-semibold leading-6 text-white"
                   >
                      {item.name}
                   </a>

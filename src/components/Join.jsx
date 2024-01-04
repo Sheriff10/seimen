@@ -3,9 +3,12 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Join() {
    return (
-      <div className="bg-red text-center text-white py-4">
+      <div className=" text-center text-white py-4">
          
          <div className="text-wrap py-32">
+            <div className="img-wrap">
+               <img src="/asset/footer.png" alt="Seimen" className="mx-auto" />
+            </div>
             <span className="text-6xl">JOIN US</span> <br />
             <div className="text-rap">
             <TypeAnimation

@@ -12,11 +12,17 @@ export default function Step() {
       setActive(tab);
    };
    return (
-      <div className="wrap flex relative text-center py-24 bg-red text-white" id="step">
+      <div className="wrap flex flex-wrap relative text-center py-24 text-white" id="step">
+         <div className="img-wrap col-12 flex items-center justify-center">
+            <img src="/asset/intro.png" alt="Seiman" className="move"/>
+         </div>
          <div className="container">
             <div className="flex flex-col">
                {/* tab sectin */}
-               <div className="col-lg-6 mx-auto text-xl">
+               <div className="col-lg-6 mx-auto text-xl mt-5">
+                  <div className="heading text-white text-6xl mb-4">
+                     <span>HOW TO BUY</span>
+                  </div>
                   <div className="tab grid grid-cols-3 bg-yellow cursor-pointer">
                      <div
                         className={` ${

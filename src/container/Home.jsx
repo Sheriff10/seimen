@@ -9,7 +9,7 @@ import Tokenomics from "../components/Tokenomics";
 
 export default function Home() {
    return (
-      <div className="text-gamja">
+      <div className="text-gamja bg-wrap">
          <Header />
          <Intro />
          <Step />

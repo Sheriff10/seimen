@@ -7,12 +7,12 @@ export default function Tokenomics() {
    const [ref3, inView3] = useInView({ threshold: 0.3 });
 
    return (
-      <div className="py-16 bg-red text-center" id="tokenomics">
-         <div className="heading bg-red text-white text-6xl py-4">
+      <div className="py-16 text-center tk" id="tokenomics">
+         <div className="heading text-white text-6xl py-4">
             <span>Tokenomics</span>
          </div>
-         <div className="wrap bg-yellow py-4">
-            <div className="text-wrap text-4xl col-lg-6 col-md-10 mx-auto text-red">
+         <div className="wrap py-4">
+            <div className="text-wrap text-4xl bg-red col-lg-6 col-md-10 mx-auto text-white p-3 py-5 rounded-2xl">
                <div
                   ref={ref1}
                   className={`${inView1 ? "fade-in-right" : "fade-out"}`}
