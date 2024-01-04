@@ -1,6 +1,8 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 export default function Intro() {
+   const [ref, inView] = useInView({threshold: 0.3})
    return (
       <>
          <div className="intro bg-red py-24 flex items-center justify-between flex-col text-center">
@@ -25,8 +27,8 @@ export default function Intro() {
                </div>
             </div>
          </div>
-         <div className="text-wrap text-4xl text-center bg-yellow col-12 text-red p-16">
-            <span>
+         <div ref={ref}  className={`text-wrap text-4xl text-center bg-yellow col-12 text-red p-16`}>
+            <span className={`${inView ? "fade-in" : "fade-out"}`}>
                <span className="font-extrabold">Seimen: MEN OF SEI</span> <br />
                We impregnate the unbelievers of SEI <br /> - The fastest place
                to swim to the moon!
