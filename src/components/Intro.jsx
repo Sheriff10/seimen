@@ -17,17 +17,17 @@ export default function Intro() {
                   <div className="img-wrap flex flex-col items-center">
                      <div className="flex flex-wrap items-center">
                         <img
-                           src="/asset/seiman2.png"
+                           src="/asset/seiman.png"
                            alt="Seiman"
                            className=" hidden lg:block img-wrap w-[200px]  h-[200px] intro-img2"
                         />
                         <img
-                           src="/asset/seiman.png"
+                           src="/asset/seiman2.png"
                            alt="Seiman"
                            className="img-wrap  w-[300px] intro-img2"
                         />
                         <img
-                           src="/asset/seiman2.png"
+                           src="/asset/seiman3.png"
                            alt="Seiman"
                            className="  hidden lg:block img-wrap w-[200px]  h-[200px]  intro-img2"
                         />
