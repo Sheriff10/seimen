@@ -15,11 +15,23 @@ export default function Intro() {
                      </span>
                   </div>
                   <div className="img-wrap flex flex-col items-center">
-                     <img
-                        src="/asset/seiman.png"
-                        alt="Seiman"
-                        className="img-wrap w-[300px] intro-img2"
-                     />
+                     <div className="flex flex-wrap items-center">
+                        <img
+                           src="/asset/seiman2.png"
+                           alt="Seiman"
+                           className=" hidden lg:block img-wrap w-[200px]  h-[200px] intro-img2"
+                        />
+                        <img
+                           src="/asset/seiman.png"
+                           alt="Seiman"
+                           className="img-wrap  w-[300px] intro-img2"
+                        />
+                        <img
+                           src="/asset/seiman2.png"
+                           alt="Seiman"
+                           className="  hidden lg:block img-wrap w-[200px]  h-[200px]  intro-img2"
+                        />
+                     </div>
                      <img
                         src="/asset/logo.png"
                         alt="Seiman"

@@ -10,10 +10,15 @@ export default function S3() {
          </div>
 
          <div className="btn-wrap grid grid-cols-1 lg:grid-cols-3 gap-3">
-            <button className="text-red bg-white px-8 py-3 text-xl rounded">
-               {" "}
-               BUY ON ASTROPORT
-            </button>
+            <a
+               href="https://app.astroport.fi/swap?from=usei&to=factory/sei1kpv8szkqdtnyul72uyj65mj5al6n5anfa5qa4m/SEIMEN"
+               target={"_blank"}
+            >
+               <button className="text-red bg-white px-8 py-3 text-xl rounded">
+                  {" "}
+                  BUY ON ASTROPORT
+               </button>
+            </a>
             <button className="text-red bg-white px-8 py-3 text-xl rounded">
                {" "}
                COINHALL CHART
