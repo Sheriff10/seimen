@@ -5,7 +5,7 @@ export default function S3() {
       <div>
          <div className="my-16">
             <div className="text-display text-4xl">
-               <span>BUY SEIMAN</span>
+               <span>BUY SEIMEN</span>
             </div>
          </div>
 
