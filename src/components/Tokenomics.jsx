@@ -19,7 +19,7 @@ export default function Tokenomics() {
                >
                   <span>
                      Circulating Supply: 517,500,000 <br />
-                     SEIMEN Total Supply: 690,000,000 Capped
+                     SEIMEN Total Supply: 414,000,000 Capped
                   </span>{" "}
                </div>
                <br /> <br />
@@ -28,12 +28,17 @@ export default function Tokenomics() {
                   className={`${inView2 ? "fade-in-left" : "fade-out"}`}
                >
                   <span>60% Initial LP</span> <br />
-                  <span>15% Team (to be vested)</span> <br />
-                  <span>15% Marketing & Business Development</span> <br />
+                  <span>6.9% Team (to be vested)</span> <br />
+                  <span>10% airdrop once $100m mcap</span> <br />
+                  <span>13.1% marketing</span> <br />
                   <span>10% Community Use TBD</span> <br /> <br /> <br />
                </div>
-               <span ref={ref3}
-                  className={`${inView3 ? "fade-in" : "fade-out"}`}>No Presale or Secret Allocations</span>
+               <span
+                  ref={ref3}
+                  className={`${inView3 ? "fade-in" : "fade-out"}`}
+               >
+                  No Presale or Secret Allocations
+               </span>
             </div>
          </div>
       </div>
