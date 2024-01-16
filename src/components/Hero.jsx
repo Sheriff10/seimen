@@ -328,8 +328,8 @@ const Hero = () => {
       });
    }, []);
    return (
-      <div>
-         <canvas id="canvas1" className="mx-auto"></canvas>
+      <div className="container grid grid-cols-1 items-center">
+         <canvas id="canvas1" className="mx-auto w-full mt-16"></canvas>
       </div>
    );
 };
