@@ -5,11 +5,11 @@ export default function Intro() {
    const [ref, inView] = useInView({ threshold: 0.3 });
    return (
       <>
-         <div className="intro  py-24 flex items-center justify-between flex-col text-center">
+         <div className="intro  flex items-center justify-between flex-col text-center">
             {/* Img and text */}
             <div className="col-12 m-0">
                <div className="wrap py-4">
-                  {/* <div className="text-wrap text-cneter r  text-white transform translate-y-[20px]">
+                  <div className="text-wrap text-cneter r  text-white transform translate-y-[20px]">
                      <span className="text-6xl">
                         <span>WE</span> <span>ARE</span>
                      </span>
@@ -37,7 +37,7 @@ export default function Intro() {
                         alt="Seiman"
                         className="img-wrap w-[400px] transform translate-y-[-70px] intro-img1"
                      />
-                  </div> */}
+                  </div>
                </div>
             </div>
          </div>

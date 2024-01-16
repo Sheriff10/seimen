@@ -11,7 +11,7 @@ export default function S3() {
 
          <div className="btn-wrap grid grid-cols-1 lg:grid-cols-3 gap-3">
             <a
-               href="https://app.astroport.fi/swap?from=usei&to=factory/sei1kpv8szkqdtnyul72uyj65mj5al6n5anfa5qa4m/SEIMEN"
+               href="https://app.astroport.fi/swap?from=usei&to=sei1sfm7432ag7jvegr03xl74fkjv5kevd3qetngnxupl8dcq6k736msf3nxum"
                target={"_blank"}
             >
                <button className="text-red bg-white px-8 py-3 text-xl rounded">

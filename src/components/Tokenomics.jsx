@@ -15,8 +15,9 @@ export default function Tokenomics() {
             <div className="text-wrap text-4xl bg-red col-lg-6 col-md-10 mx-auto text-white p-3 py-5 rounded-2xl">
                <div
                   ref={ref1}
-                  className={`${inView1 ? "fade-in-right" : "fade-out"}`}
+                  className={`${inView1 ? "fade-in-right" : "fade-out"} break-words`}
                >
+                  <span>CA: <span className="  text-rose-700 text-md">sei1sfm7432ag7jvegr03xl74fkjv5kevd3qetngnxupl8dcq6k736msf3nxum</span> </span> <br /> <br />
                   <span>
                      Circulating Supply: 517,500,000 <br />
                      SEIMEN Total Supply: 414,000,000 Capped
