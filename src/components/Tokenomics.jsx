@@ -27,7 +27,7 @@ export default function Tokenomics() {
                   ref={ref2}
                   className={`${inView2 ? "fade-in-left" : "fade-out"}`}
                >
-                  <span>60% Initial LP</span> <br />
+                  <span>60% Initial LP</span> <br/>
                   <span>6.9% Team (to be vested)</span> <br />
                   <span>10% airdrop once $100m mcap</span> <br />
                   <span>13.1% marketing</span> <br />

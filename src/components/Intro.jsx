@@ -9,7 +9,7 @@ export default function Intro() {
             {/* Img and text */}
             <div className="col-12 m-0">
                <div className="wrap py-4">
-                  <div className="text-wrap text-cneter r  text-white transform translate-y-[20px]">
+                  {/* <div className="text-wrap text-cneter r  text-white transform translate-y-[20px]">
                      <span className="text-6xl">
                         <span>WE</span> <span>ARE</span>
                      </span>
@@ -37,7 +37,7 @@ export default function Intro() {
                         alt="Seiman"
                         className="img-wrap w-[400px] transform translate-y-[-70px] intro-img1"
                      />
-                  </div>
+                  </div> */}
                </div>
             </div>
          </div>
