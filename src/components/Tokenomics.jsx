@@ -19,7 +19,7 @@ export default function Tokenomics() {
                >
                   <span>CA: <span className="  text-rose-700 text-md">sei1sfm7432ag7jvegr03xl74fkjv5kevd3qetngnxupl8dcq6k736msf3nxum</span> </span> <br /> <br />
                   <span>
-                     Circulating Supply: 517,500,000 <br />
+                     Circulating Supply: 690,000,000 <br />
                      SEIMEN Total Supply: 414,000,000 Capped
                   </span>{" "}
                </div>
