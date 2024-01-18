@@ -23,10 +23,15 @@ export default function S3() {
                {" "}
                COINHALL CHART
             </button>
-            <button className="text-red bg-white px-8 py-3 text-xl rounded">
-               {" "}
-               COINGECKO
-            </button>
+            <a
+               href="https://www.coingecko.com/en/coins/seimen"
+               target={"_blank"}
+            >
+               <button className="text-red bg-white px-8 py-3 text-xl rounded">
+                  {" "}
+                  COINGECKO
+               </button>
+            </a>
          </div>
       </div>
    );
